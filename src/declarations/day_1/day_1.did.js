@@ -7,6 +7,7 @@ export const idlFactory = ({ IDL }) => {
     'increment_counter' : IDL.Func([IDL.Nat], [IDL.Nat], []),
     'is_even' : IDL.Func([IDL.Nat], [IDL.Bool], []),
     'square' : IDL.Func([IDL.Nat], [IDL.Nat], []),
+    'sum_of_array' : IDL.Func([], [IDL.Nat], []),
   });
 };
 export const init = ({ IDL }) => { return []; };

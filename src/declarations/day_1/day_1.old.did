@@ -2,7 +2,9 @@ service : {
   add: (nat, nat) -> (nat);
   clear_counter: () -> ();
   days_to_second: (nat) -> (nat);
-  greet: (text) -> (text);
+  divide: (nat, nat) -> (bool);
   increment_counter: (nat) -> (nat);
+  is_even: (nat) -> (bool);
   square: (nat) -> (nat);
+  sum_of_array: () -> (nat);
 }

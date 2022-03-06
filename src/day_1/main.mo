@@ -51,5 +51,20 @@ actor {
     };
   };
  
+  // Challenge 7
+  let arr : [Nat] = [1, 6, 7, 9, 5];
 
+  public func sum_of_array() : async Nat{
+    if (arr.size() == 0 ){
+      return 0;
+    }else{
+      var a : Nat = 0;
+      for (item in arr.vals()){
+          a += item;
+    };
+    return a;
+
+    }
+      
+  }
 };

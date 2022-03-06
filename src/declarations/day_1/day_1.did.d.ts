@@ -7,4 +7,5 @@ export interface _SERVICE {
   'increment_counter' : (arg_0: bigint) => Promise<bigint>,
   'is_even' : (arg_0: bigint) => Promise<boolean>,
   'square' : (arg_0: bigint) => Promise<bigint>,
+  'sum_of_array' : () => Promise<bigint>,
 }

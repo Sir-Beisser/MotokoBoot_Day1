@@ -1,0 +1,8 @@
+service : {
+  add: (nat, nat) -> (nat);
+  clear_counter: () -> ();
+  days_to_second: (nat) -> (nat);
+  greet: (text) -> (text);
+  increment_counter: (nat) -> (nat);
+  square: (nat) -> (nat);
+}

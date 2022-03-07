@@ -5,6 +5,7 @@ service : {
   divide: (nat, nat) -> (bool);
   increment_counter: (nat) -> (nat);
   is_even: (nat) -> (bool);
+  maximum: () -> (nat);
   square: (nat) -> (nat);
   sum_of_array: () -> (nat);
 }

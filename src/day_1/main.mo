@@ -52,7 +52,7 @@ actor {
   };
  
   // Challenge 7
-  let arr : [Nat] = [1, 6, 7, 9, 5];
+  let arr : [Nat] = [1, 27, 7, 9, 5];
 
   public func sum_of_array() : async Nat{
     if (arr.size() == 0 ){
@@ -63,8 +63,21 @@ actor {
           a += item;
     };
     return a;
+    };
+  };
 
-    }
-      
-  }
+  // Challenge 8 - find array.max
+  public func maximum() : async Nat{
+    if(arr.size() == 0){
+      return 0;
+    }else{
+      var val : Nat = 0;
+      for(value in arr.vals()){
+        if(value > val){
+          val := value;
+        };
+      };
+    return val;
+    };
+  };
 };

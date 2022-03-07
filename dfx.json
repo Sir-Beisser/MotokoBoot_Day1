@@ -4,6 +4,11 @@
       "main": "src/day_1/main.mo",
       "type": "motoko"
     },
+    "day_2": {
+      "main": "src/day_2/main.mo",
+      "type": "motoko"
+    },
+
     "day_1_assets": {
       "dependencies": [
         "day_1"
@@ -32,4 +37,6 @@
     }
   },
   "version": 1
+
+  
 }

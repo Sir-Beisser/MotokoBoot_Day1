@@ -1,5 +1,6 @@
 import Array "mo:base/Array";
 import Nat "mo:base/Nat";
+import Iter "mo:base/Iter";
 
 actor {
   // Challenge 1
@@ -54,8 +55,6 @@ actor {
   };
  
   // Challenge 7
-  let arr : [Nat] = [1, 27, 7, 9, 5];
-
   public func sum_of_array(arr : [Nat]) : async Nat{
     if (arr.size() == 0 ){
       return 0;
@@ -96,8 +95,4 @@ actor {
   };
   
   //Challenge 10 - sort an array
-  //public func(arr : [Nat]) : async [Nat]{
-  //  return [0];
-
-  //}
 };

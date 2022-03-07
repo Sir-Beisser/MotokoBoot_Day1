@@ -6,10 +6,10 @@ export interface _SERVICE {
   'divide' : (arg_0: bigint, arg_1: bigint) => Promise<boolean>,
   'increment_counter' : (arg_0: bigint) => Promise<bigint>,
   'is_even' : (arg_0: bigint) => Promise<boolean>,
-  'maximum' : () => Promise<bigint>,
+  'maximum' : (arg_0: Array<bigint>) => Promise<bigint>,
   'remove_from_array' : (arg_0: Array<bigint>, arg_1: bigint) => Promise<
       Array<bigint>
     >,
   'square' : (arg_0: bigint) => Promise<bigint>,
-  'sum_of_array' : () => Promise<bigint>,
+  'sum_of_array' : (arg_0: Array<bigint>) => Promise<bigint>,
 }

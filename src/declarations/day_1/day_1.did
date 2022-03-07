@@ -5,8 +5,8 @@ service : {
   divide: (nat, nat) -> (bool);
   increment_counter: (nat) -> (nat);
   is_even: (nat) -> (bool);
-  maximum: () -> (nat);
+  maximum: (vec nat) -> (nat);
   remove_from_array: (vec nat, nat) -> (vec nat);
   square: (nat) -> (nat);
-  sum_of_array: () -> (nat);
+  sum_of_array: (vec nat) -> (nat);
 }

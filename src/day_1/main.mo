@@ -1,5 +1,7 @@
-actor {
+import Array "mo:base/Array";
+import Nat "mo:base/Nat";
 
+actor {
   // Challenge 1
   public func add(n : Nat , m : Nat) : async Nat {
     // Calculates a sum
@@ -79,5 +81,17 @@ actor {
       };
     return val;
     };
+  };
+
+  // Challenge 9 - remove a specific value from array
+  public func remove_from_array(arr : [Nat], n : Nat) : async [Nat]{
+    let f = func(m : Nat) : Bool{
+      if(m != n){
+        return true;
+      }else{
+        return false;
+      };
+    };
+    return(Array.filter<Nat>(arr, f))
   };
 };
